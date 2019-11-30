@@ -1,6 +1,6 @@
 #
 
-all: clean symlink-data create-data compress-data
+all: symlink-data create-data compress-data
 
 clean: 
 	rm -rf log/* output/*
